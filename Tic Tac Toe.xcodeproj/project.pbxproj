@@ -13,6 +13,9 @@
 		0D27CE071BA0C855006F747C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D27CE061BA0C855006F747C /* Images.xcassets */; };
 		0D27CE0A1BA0C855006F747C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D27CE081BA0C855006F747C /* LaunchScreen.xib */; };
 		0D27CE161BA0C856006F747C /* Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D27CE151BA0C856006F747C /* Tic_Tac_ToeTests.swift */; };
+		0D27CE241BA0C88B006F747C /* tic_tac_toe1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0D27CE231BA0C88B006F747C /* tic_tac_toe1.gif */; };
+		0D27CE2C1BA0CB0D006F747C /* Cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D27CE2B1BA0CB0D006F747C /* Cross.png */; };
+		0D27CE2E1BA0D42E006F747C /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D27CE2D1BA0D42E006F747C /* nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		0D27CE0F1BA0C856006F747C /* Tic Tac ToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic Tac ToeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D27CE141BA0C856006F747C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D27CE151BA0C856006F747C /* Tic_Tac_ToeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeTests.swift; sourceTree = "<group>"; };
+		0D27CE231BA0C88B006F747C /* tic_tac_toe1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tic_tac_toe1.gif; sourceTree = "<group>"; };
+		0D27CE2B1BA0CB0D006F747C /* Cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cross.png; sourceTree = "<group>"; };
+		0D27CE2D1BA0D42E006F747C /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +85,11 @@
 			children = (
 				0D27CDFF1BA0C855006F747C /* AppDelegate.swift */,
 				0D27CE011BA0C855006F747C /* ViewController.swift */,
+				0D27CE2D1BA0D42E006F747C /* nought.png */,
+				0D27CE2B1BA0CB0D006F747C /* Cross.png */,
 				0D27CE031BA0C855006F747C /* Main.storyboard */,
 				0D27CE061BA0C855006F747C /* Images.xcassets */,
+				0D27CE231BA0C88B006F747C /* tic_tac_toe1.gif */,
 				0D27CE081BA0C855006F747C /* LaunchScreen.xib */,
 				0D27CDFD1BA0C855006F747C /* Supporting Files */,
 			);
@@ -193,7 +202,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D27CE051BA0C855006F747C /* Main.storyboard in Resources */,
+				0D27CE241BA0C88B006F747C /* tic_tac_toe1.gif in Resources */,
+				0D27CE2E1BA0D42E006F747C /* nought.png in Resources */,
 				0D27CE0A1BA0C855006F747C /* LaunchScreen.xib in Resources */,
+				0D27CE2C1BA0CB0D006F747C /* Cross.png in Resources */,
 				0D27CE071BA0C855006F747C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
